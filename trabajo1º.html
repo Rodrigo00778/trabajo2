@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="trabajo1º.css">
+</head>
+<body>
+    <nav class="enlaces" >
+
+        
+        <div class="enl">
+            <a href="https://www.netflix.com/es/"><img  width="90%" src="data:image/png;base64,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"></a>
+
+        </div>
+        <div class="enl">
+            <a href="https://help.hbomax.com/es-es/Answer/Detail/000001262"><img width="50%" src="https://play-lh.googleusercontent.com/ELLR6rcIP_mr6pB4kX9QhBKF-najkWHfb8RqceX4CBsyel3o_W9DoGas7WfPgfiIsQ"></a>
+
+        </div>
+        <div class="enl">
+            <a href="https://www.disneyplus.com/es-es"><img  width="70%"src="data:image/jpeg;base64,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"></a>
+
+        </div>
+        
+    
+    </nav>
+    <header>
+        <div class="encabe">
+            <img src="https://fontid.co/?qa=image&qa_blobid=16025724193609887661&qa_size=630">
+        </div>
+    </header>
+    <p class="parra" >
+        El mundo Tarantino
+    </p>
+    <h2>
+        Sí te consideras culto en peliculas y no has visto alguna de estas peliculas, perdona faltarte al respeto pero no tienes ni p*ta idea, os dejo por aquí sus 10 mejores peliculas, para vosotros jugadores
+    </h2>
+    <section id="columnas">
+        <div class="columna1">
+            <div class="pares">
+                <header class="titulo">
+                   10º Death Proof (2007)
+                </header>
+                <div>
+                    <img  width="300px" src="https://hips.hearstapps.com/es.h-cdn.co/fotoes/images/cinefilia/peliculas-que-cumplen-10-anos-en-2017/death-proof/124863274-1-esl-ES/death-proof.jpg?crop=1xw:1xh;center,top&resize=980:*" alt="">
+                </div>
+                <div >
+                    <h4>Sinopsis: Dos grupos de voluptuosas, independientes y aguerridas mujeres son acechadas por un misterioso especialista de escenas de acción que, marcado por una enorme cicatriz y equipado con su coche a prueba de muerte (death proof) ejecuta sus planes homicidas. ¿Serán estas ocho mujeres capaces de desenmascarar y derrotar al diabólico Stuntman Mike (Kurt Russell)?</h4>
+                    <h3>
+                        NOTA:6
+                    </h3>
+    
+                
+                </div>
+            </div>
+    
+    
+            <div class="impares">
+                <header class="titulo">
+                    9º Jackie Brown (1997)
+                </header>
+                <div>
+                    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/thrillers-peliculas-suspense-que-ver-antes-de-morir-jackie-brown-1538500060.jpg?crop=1xw:1xh;center,top&resize=980:*" alt="">
+    
+                </div>
+                <div>
+                    <h4>
+                        Sinopsis: Una azafata llamada Jackie (Pam Grier) incrementa su exiguo sueldo mensual transportando divisas de contrabando para el traficante Ordell. Pero un día es detenida en el aeropuerto de Los Angeles y la policía le propone que colabore en la captura de Ordell para así librarse de ir a prisión. Con la ayuda del hombre que paga su fianza, Jackie llega a la conclusión de que lo mejor para ella será que sus enemigos se enfrenten entre sí.
+                    </h4>
+                    <h3>
+                        NOTA:7
+                    </h3>
+    
+                </div>
+            </div>
+    
+    
+            <div class="pares">
+                <header class="titulo">
+                   8º Érase una vez en... Hollywood (2019)
+                </header>
+                <div>
+                    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/erase-una-vez-en-hollywood-dicaprio-1558521464.jpg?crop=1xw:1xh;center,top&resize=980:*" alt="">
+    
+                </div>
+                <div>
+                    <h4>
+                        Sinopsis: La película se centra en el panorama cambiante de Hollywood a finales de los años 60, cuando la industria empezaba a olvidarse de los pilares clásicos. La estrella de un western televisivo, Rick Dalton (DiCaprio), intenta amoldarse a estos cambios al mismo tiempo que su doble (Pitt). Sin embargo, la vida de Dalton parece que está ligada a sus raíces de Hollywood, puesto que es vecino de la actriz y modelo Sharon Tate (Robbie), que acaba siendo víctima de la familia Manson en la matanza de agosto de 1969.</h4>
+                    <h3>
+                        NOTA:7
+                    </h3>
+    
+                </div>
+            </div>
+    
+    
+            <div class="impares">
+                <header class="titulo">
+                   7º Los odiosos ocho (2015)
+                </header>
+                <div>
+                    <img src="https://hips.hearstapps.com/es.h-cdn.co/fotoes/images/cinefilia/!yo-no-voy!-10-peliculas-boicoteadas/los-odiosos-ocho-quentin-tarantino-2015/120935772-1-esl-ES/Los-odiosos-ocho-Quentin-Tarantino-2015.jpg?crop=1xw:1xh;center,top&resize=980:*" alt="">
+    
+                </div>
+                <div>
+                    <h4>
+                        Sinopsis: Wyoming, poco después de la Guerra de Secesión americana. Una tormenta de nieve fuerza al cazarrecompensas John Ruth (Kurt Russell) y a su prisionera, Daisy Domergue (Jennifer Jason Leigh), una fugitiva acusada de asesinato a la que lleva para que ahorquen, a encontrar refugio en una posada.</h4>
+                    <h3>
+                        NOTA:7,5
+                    </h3>
+    
+                </div>
+            </div>
+    
+    
+    
+            <div class="pares">
+                <header class="titulo">
+                   6º Kill Bill Vol. 2 (2004)
+                </header>
+                <div>
+                    <img src="https://hips.hearstapps.com/es.h-cdn.co/fotoes/images/cinefilia/breve-historia-de-las-promesas-incumplidas-de-quentin-tarantino/1.-kill-bill-3/27280766-1-esl-ES/1.-Kill-Bill-3.jpg?crop=1xw:1xh;center,top&resize=980:*" alt="">
+    
+                </div>
+                <div>
+                    <h4>
+                        Sinopsis: Le robaron su hija a La Novia y le arruinaron su banquete de bodas. Son los chicos (y la chica) de Bill, con David Carradine a la cabeza, Daryl Hannah, Michael Madsen y el culpable de sus tropelías, Quentin Tarantino.</h4>
+                    <h3>
+                        NOTA:8
+                    </h3>
+    
+                </div>
+            </div>
+        </div>
+
+        <div class="columna2">
+            <div class="impares">
+                <header class="titulo">
+                  5º  Kill Bill Vol. 1 (2003)
+                </header>
+                <div>
+                    <imgwidth="300px" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/elle-kill-bill-1565607099.jpg?crop=1xw:1xh;center,top&resize=980:*" alt="">
+    
+                </div>
+                <div>
+                    <h4>
+                        Sinopsis: Los miembros (Daryl Hannah, Vivica A. Fox, Michael Madsen y Lucy Liu) del Escuadrón Asesino Víbora Letal, también conocido como DiVAS, irrumpen en la boda de una ex compañera, apodada antiguamente Mamba Negra (Uma Thurman), dispuestos a matar a todos los presentes... pero ella sobrevive. La venganza está servida.</h4>
+                    <h3>
+                        NOTA:8.3
+                    </h3>
+    
+                </div>
+            </div>
+    
+    
+    
+    
+    
+            <div class="pares">
+                <header class="titulo">
+                   4º Reservoir Dogs (1992)
+                </header>
+                <div>
+                    <img src="https://hips.hearstapps.com/es.h-cdn.co/fotoes/images/cinefilia/17-comedias-de-culto-para-empezar-el-ano-con-alegria/reservoir-dogs-1992/124694699-1-esl-ES/Reservoir-Dogs-1992.jpg?crop=1xw:1xh;center,top&resize=980:*" alt="">
+    
+                </div>
+                <div>
+                    <h4>
+                        Sinopsis: Reunidos a puerta cerrada, los supervivientes del robo a una joyería intentan saber las causas del fracaso, llegando a la conclusión de que entre ellos hay un delator. Desde ese momento no repararán en los métodos para desenmascararle.</h4>
+                    <h3>
+                        NOTA:8.6
+                    </h3>
+    
+                </div>
+            </div>
+    
+    
+    
+            <div class="impares">
+                <header class="titulo">
+                   3º Malditos bastardos (2009)
+                </header>
+                <div>
+                    <img src="https://www.phenomena-experience.com/galeria/Historico_peliculas/M/malditos-bastardos.jpg" alt="">
+    
+                </div>
+                <div>
+                    <h4>
+                        Sinopsis: Segunda Guerra Mundial. Francia. Los Bastardos, una unidad de soldados judíos del ejército USA capitaneada por el teniente Aldo Raine (Brad Pitt) son el terror entre las filas alemanas. En su camino se cruza una granjera francesa, Shosanna Dreyfus (Mélanie Laurent). Los nazis han matado a su familia, y ella buscará venganza en un cine de París, donde el Ministro de Propaganda Goebbels (Sylvester Groth) quiere estrenar su última película. </h4>
+                    <h3>
+                        NOTA:8.5
+                    </h3>
+    
+                </div>
+            </div>
+    
+    
+    
+            <div class="pares">
+                <header class="titulo">
+                   2º Django desencadenado (2012))
+                </header>
+                <div>
+                    <img src="https://hips.hearstapps.com/es.h-cdn.co/fotoes/images/cinefilia/30-peliculas-que-puedes-recomendar-y-nunca-te-fallaran/django-desencadenado-2012/134142251-1-esl-ES/Django-desencadenado-2012.jpg?crop=1xw:1xh;center,top&resize=980:*" alt="">
+    
+                </div>
+                <div>
+                    <h4>
+                        Sinopsis: Un esclavo liberado (Jamie Foxx) es entrenado por un cazarrecompensas alemán (Christoph Waltz). Tras realizar algunos trabajos juntos, el protagonista se embarca en la misión de liberar a su esposa, todavía esclavizada por el malvado propietario de una plantación (Leonardo DiCaprio). </h4>
+                    <h3>
+                        NOTA:9.5
+                    </h3>
+    
+                </div>
+            </div>
+    
+    
+    
+            <div class="impares">
+                <header class="titulo">
+                   1º Pulp Fiction (1994))
+                </header>
+                <div>
+                    <img src="https://m.media-amazon.com/images/M/MV5BMTc5Njg5Njg2MV5BMl5BanBnXkFtZTgwMjAwMzg5MTE@._V1_.jpg" alt="">
+    
+                </div>
+                <div>
+                    <h4>
+                        Sinopsis: Jules (Samuel L. Jackson) y Vincent (John Travolta) son dos asesinos a sueldo que trabajan para Marsellus (Ving Rhames). Éste debe ausentarse, y encarga a Vincent que cuide de Mia (Uma Thurman), su atractiva mujer. Un difícil compromiso, ya que el anterior hombre que desempeñó esa tarea fue liquidado por Marsellus.
+                    </h4>
+                    <h3>
+                        NOTA:9.8
+                    </h3>
+    
+                </div>
+            </div>
+            
+        </div>
+
+
+
+
+
+
+
+
+       
+    </section>
+
+
+
+    <section>
+        <div>
+            <header>
+                Le dejamos la disposición de nuestra página de reclamaciones
+            </header>
+            <a href="https://www.bing.com/search?q=twitter&cvid=dd409cd391c14e64a691df76f95afff5&aqs=edge.1.69i57j46j0j46j0l5.3455j0j1&pglt=43&FORM=ANNTA1&PC=U531"><img width="100px" src="data:image/png;base64,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" alt=""></a>
+            <a href="http://127.0.0.1:5500/dia4.html"<p> Y si no aquí</p></a> 
+            <a href="http://127.0.0.1:5500/Untitled-1.html"<p> Y si te gustan los volvos</p></a>
+            <a href="http://127.0.0.1:5500/4-22/trabajo2%C2%BA.html"<p> QUIERES SABER QUIEN TE PUEDE MATAR DE TUS PERSONAJES fAVORITOS</p></a>
+        
+        </div>
+        <h5>
+            Danos tu opinión 
+
+        </h5>
+
+        <div class="comentarios">
+            <label for="Comentarios">Comentarios</label>
+            <input type="text"placeholder="opiniones buenas jeje" name="cometarios"></input>
+        </div>
+        <div class="tipo">
+            <label for="opciones"> ¿Cuál te gusta más?</label>
+            <input type="checkbox" name="iron-merchan" value="">1º</input>
+            <input type="checkbox" name="iron-merchan" value="">2º</input>
+            <input type="checkbox" name="iron-merchan" value="">3º</input>
+            <input type="checkbox" name="iron-merchan" value="">4º</input>
+            <input type="checkbox" name="iron-merchan" value="">5º</input>
+            <input type="checkbox" name="iron-merchan" value="">6ºv</input>
+            <input type="checkbox" name="iron-merchan" value="">7º</input>
+            <input type="checkbox" name="iron-merchan" value="">8º</input>
+            <input type="checkbox" name="iron-merchan" value="">9º</input>
+            <input type="checkbox" name="iron-merchan" value="">10º</input>
+
+        </div>
+        <div class="random">
+            <h5>
+                Cuentame que escena te ha impactado más
+    
+            </h5>
+    
+            <div class="comentarios">
+                <label for="Comentarios">Random</label>
+                <input type="text"placeholder="lo más loco" name="cometarios"></input>
+            </div>
+        </div>
+        
+    </section>
+    <p>  </p>
+    <footer>
+        <nav>
+            Espero que os haya servido como enseñanza de la vida para ser mejor persona / ser de luz, o por lo menos que os haya dado ganas de verlas
+        </nav >
+        <div>
+        </div>
+        <footer>
+            <nav class="enlaces" >
+
+        
+                <div class="enl">
+                    <a href="https://www.netflix.com/es/"><img  width="90%" src="data:image/png;base64,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"></a>
+        
+                </div>
+                <div class="enl">
+                    <a href="https://help.hbomax.com/es-es/Answer/Detail/000001262"><img width="50%" src="https://play-lh.googleusercontent.com/ELLR6rcIP_mr6pB4kX9QhBKF-najkWHfb8RqceX4CBsyel3o_W9DoGas7WfPgfiIsQ"></a>
+        
+                </div>
+                <div class="enl">
+                    <a href="https://www.disneyplus.com/es-es"><img  width="70%"src="data:image/jpeg;base64,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"></a>
+        
+                </div>
+                
+            
+            </nav>
+        </footer>
+
+    </footer>
+
+
+
+    
+    
+</body>
+</html>

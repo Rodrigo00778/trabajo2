@@ -1,0 +1,61 @@
+body {
+  background-color: yellow;
+}
+.boton{
+    display: flex;
+
+    justify-content: center;
+    width: 50%;
+}
+.BOTON{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.pregunta{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    font-size: 20px;
+
+    background-color: rgb(255, 0, 21);
+    
+
+
+}
+
+
+.oculto{
+    display: none;
+}
+.respuesta{
+    display: flex;
+    justify-content: space-between;
+
+    background-color: rgb(240, 235, 227);
+
+}
+.machete{
+    width: 50%;
+}
+.enunciado{
+ 
+    width: 80%;
+    justify-content: space-between;
+    font-size: 20px;
+
+
+}
+.cuestionarioDisposición{
+
+
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.cuestionario{ 
+    display: flex;
+    flex-direction:column;
+
+}

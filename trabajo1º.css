@@ -1,0 +1,83 @@
+.enlaces {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+.enl {
+  width: 10%;
+}
+
+body {
+  background-color: yellow;
+}
+h2 {display: flex;
+  justify-content: center;
+  color: red;
+  width: 100%;
+}
+h3 {
+  color: black;
+  width: 80%;
+}
+h4 {
+  color: black;
+  width: 100%;
+}
+.encabe {
+  display: flex;
+  justify-content: center;
+}
+
+
+.encabe {
+  display: flex;
+  justify-content: center;
+}
+.parra {
+
+    margin: 0 auto;
+  display: flex;
+  font-size: 100px;
+  width: 100%;
+  justify-content: center;
+}
+.encabe img {
+    width: 70%;
+}
+.pares img, .impares img {
+    width: 80%;
+}
+.titulo{justify-content: start;
+    display: flex;
+
+}
+#columnas {
+    display: flex;
+    flex-direction: row;
+}
+
+.columna1, .columna2 {
+    width: 50%;
+}
+
+.columna1{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+
+}
+.columna2{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+
+}
+
+.pares, .impares {
+    width: 100%;
+}
+h5{font-size: 20px;
+
+}
